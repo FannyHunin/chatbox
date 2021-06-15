@@ -7,7 +7,11 @@ class App extends Component {
 
     return (
      <div className='box'>
-       <h2>Chatbox</h2>
+       <div>
+         <div className='message'>
+           Message
+         </div>
+       </div>
      </div>
      
     )
