@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import './App.css'
+import Formulaire from './components/Formulaire'
+import Messages from './components/Messages'
 
 class App extends Component {
  
@@ -9,9 +11,10 @@ class App extends Component {
      <div className='box'>
        <div>
          <div className='message'>
-           Message
+           
          </div>
        </div>
+       <Formulaire/>
      </div>
      
     )
